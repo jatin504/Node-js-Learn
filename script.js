@@ -44,7 +44,6 @@ const express = require('express')
 
 const app = express();
 
-
 //middleware
 app.use(function(req, res, next){
     console.log("middleware")
